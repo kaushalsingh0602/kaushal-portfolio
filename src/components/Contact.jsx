@@ -21,8 +21,8 @@ const Contact = () => {
           </div> 
 
             <form
-                // action="https://getform.io/f/bxojrpra"
-                // method="POST"
+                action="https://getform.io/f/bxojrpra"
+                method="POST"
                 className=" max-w-6xl p-5 md:p-12"
                 id="form"
             >
