@@ -16,7 +16,7 @@ const experiences = [
                       },
       {
         company: 'Reconnect Info Serve Private Limited',
-        period: '(Feb)2024 - Present',
+        period: '(Feb)2024 - (july)2024',
         description: `Backend Development: Designed and developed the backend for three mobile applications (Fliker, Fliker
                    Delivery Partner,Fliker - Restaurant) using Node.js.
                    Ensured seamless communication between mobile apps and backend services.
