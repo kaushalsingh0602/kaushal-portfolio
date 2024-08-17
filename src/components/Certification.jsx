@@ -17,7 +17,7 @@ const projects = [
       },
     },
     {
-      img:download2,
+      img:download3,
       title: "React",
       description: "I earned the React  Certificate from HackerRank, showcasing my proficiency in React concepts such as component lifecycle, hooks, state management, and performance optimization. This certification reflects my ability to build dynamic and efficient React applications.",
       links: {
@@ -26,7 +26,7 @@ const projects = [
       },
     },
     {
-      img: download3,
+      img: download2,
       title: "SQL (Intermediate) Certificate",
       description: "I earned the SQL (Intermediate) Certificate from HackerRank, demonstrating my proficiency in database management, complex queries, data manipulation, and optimization techniques. This certification reflects my ability to efficiently work with relational databases and manage data-driven applications.",
       links: {
