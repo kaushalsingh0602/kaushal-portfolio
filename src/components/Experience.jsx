@@ -3,6 +3,35 @@ import { motion } from 'framer-motion'
 import Reveal from './Reveal'
 
 const experiences = [
+
+    {
+        company: 'Kanmotech',
+        period: '(Nov)2024 and present',
+        description: `I worked as a Software Developer at Kanmo Tech, an IT solutions provider for Suryoday Small Finance Bank. During this period, I contributed to the development of digital solutions aimed at enhancing financial services for MSME customers. I developed a React Native and Node.js-based mobile application for MSME clients, optimizing API performance to reduce response times by 30 seconds, which led to a 20x increase in customer acquisition. Additionally, I built a web portal to streamline the credit approval process for MSME loans, improving efficiency and reducing processing times. I also implemented a web-based lead generation system to identify and engage potential MSME clients, contributing to business growth. Currently, I am leading the development of a home loan application from scratch, collaborating with a cross-functional team to deliver a user-friendly and efficient platform. My work has significantly enhanced the bank's digital offerings, improved customer experience, and supported business expansion in the MSME sector.`,
+                      },
+                      {
+                        company: 'M/s Alt-Pi Fintech Pvt. Ltd.:',
+                        period: '(sep)2024 - present',
+                        description: ` I am working as a freelance full stack developer at M/s Alt-Pi Fintech Pvt. Ltd., where I led the end-to-end development of the Nimbooo platform—a comprehensive financial management system built from scratch. This involved designing secure payment integrations, developing efficient APIs, and creating an intuitive user interface to enhance user experience. Additionally, I developed the Reward Bale website, a rewards-based platform emphasizing seamless user interaction and scalable backend architecture, ensuring efficient point tracking and redemption workflows. My role encompassed system architecture, database modeling, and API integrations, utilizing a tech stack that includes Next.js, React.js, Node.js, Express.js, MongoDB, MySQL, HTML, CSS, and JavaScript.
+                                   `
+                                        },
+                                        {
+                                          company: 'Reconnect Info Serve Private Limited',
+                                          period: '(Feb)2024 - (july)2024',
+                                          description: `Backend Development: Designed and developed the backend for three mobile applications (Fliker, Fliker
+                                                     Delivery Partner,Fliker - Restaurant) using Node.js.
+                                                     Ensured seamless communication between mobile apps and backend services.
+                                                     Utilized Firebase for real-time data synchronization and notification services
+                                                     Integrated smooth and secure payment solutions.
+                                                   Successfully deployed servers on AWS and managed regular updates to maintain
+                                                    performance and relevance.
+                                                     Implemented S3 buckets for efficient image storage and optimized the time
+                                                    complexity of existing code.
+                                                     In addition to the backend i also  Developed the frontend of
+                                                     Fliker Restaurant Web App using React.
+                                                    Tech Stack: JavaScript, Node.js, Express.js, MySQL, Firebase, React
+                                                     Apps : Fliker , Fliker Delivery Partner, Fliker - Resturant.`
+                                                          },                                   
     {
         company: 'Tech Teals',
         period: '(Feb)2023 - (June)2023',
@@ -14,23 +43,8 @@ const experiences = [
                  Worked closely with the design team to implement UI/UX improvements.
                 Tech Stack: React, HTML, CSS, JavaScript`,
                       },
-      {
-        company: 'Reconnect Info Serve Private Limited',
-        period: '(Feb)2024 - (july)2024',
-        description: `Backend Development: Designed and developed the backend for three mobile applications (Fliker, Fliker
-                   Delivery Partner,Fliker - Restaurant) using Node.js.
-                   Ensured seamless communication between mobile apps and backend services.
-                   Utilized Firebase for real-time data synchronization and notification services
-                   Integrated smooth and secure payment solutions.
-                 Successfully deployed servers on AWS and managed regular updates to maintain
-                  performance and relevance.
-                   Implemented S3 buckets for efficient image storage and optimized the time
-                  complexity of existing code.
-                   In addition to the backend i also  Developed the frontend of
-                   Fliker Restaurant Web App using React.
-                  Tech Stack: JavaScript, Node.js, Express.js, MySQL, Firebase, React
-                   Apps : Fliker , Fliker Delivery Partner, Fliker - Resturant.`
-                        },
+      
+    
       // {
       //   company: 'Third Company',
       //   period: '2020 - Present',
