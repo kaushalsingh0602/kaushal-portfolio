@@ -9,8 +9,14 @@ import {
   DiNodejsSmall,
   DiMongodb,
   DiGithubBadge,
+  DiMysql,
+
 } from "react-icons/di"
 import Reveal from "./Reveal"
+import { SiExpress, SiNextdotjs, } from "react-icons/si"
+import { FaReact } from "react-icons/fa6"
+
+
 
 const skills = [
     {
@@ -31,6 +37,10 @@ const skills = [
         { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+        { name: 'Next Js', icon: <SiNextdotjs className='text-gray-100' /> },
+        { name: 'Espress', icon: <SiExpress className='text-orange-500' /> },
+        { name: 'MySql', icon: <DiMysql className='text-blue-600'  /> },
+        { name: 'React Native', icon:<FaReact className='text-blue-500'/> },
       ],
     },
   ]
@@ -38,6 +48,7 @@ const skills = [
 const Skills = () => {
   return (
     <div className="max-w-[650px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12" id="skills">
+      
         <Reveal>
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">
