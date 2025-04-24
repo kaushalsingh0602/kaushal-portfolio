@@ -15,7 +15,11 @@ import {
   DiJavascript1,
   DiNodejsSmall,
   DiReact,
+  DiMongodb,
+ 
+  DiMysql,
 } from "react-icons/di";
+import { SiExpress, SiNextdotjs, SiTypescript, } from "react-icons/si"
 import { motion } from "framer-motion";
 
 
@@ -34,6 +38,8 @@ const Hero = () => {
                         "Fullstack Dev",
                         1000,
                         "Webdesigner",
+                        1000,
+                        "Android Developer",
                         1000,
             
                     ]}
@@ -60,7 +66,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-                    I am a passionate fullstack developer with over 1 years of experience.
+                    I am a passionate fullstack Web & App developer with over 1 years of experience.
                 </motion.p>
 
                 <motion.div
@@ -72,7 +78,7 @@ const Hero = () => {
                 > 
                 {/* <motion.a   href={"https://drive.google.com/file/d/1r_DcikXuDU2pJoXhu3xple2Ksix0Kdyz/view?usp=sharing"}> */}
                     <motion.a whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
-                       href={"https://drive.google.com/file/d/1r_DcikXuDU2pJoXhu3xple2Ksix0Kdyz/view?usp=sharing"}
+                       href={"https://drive.google.com/file/d/15V5V81-8SrrfxuNLCL_7v1sFew-iJ3FO/view?usp=sharing"}
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"     
                     >
@@ -112,14 +118,31 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 2 }}
-            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+            className="flex flex-col md:flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
         >
             <p className="text-gray-200 mr-6">My Tech Stack</p>
+            <div className="flex md:flex-col flex-row">
             <DiHtml5 className="text-orange-600 mx-2" />
             <DiCss3 className="text-blue-600 mx-2" />
+            </div>
+            <div className="flex md:flex-col flex-row">
             <DiJavascript1 className="text-yellow-500 mx-2" />
+            <SiTypescript className='text-blue-500 mx-2'  />
+            </div>
+            <div className="flex md:flex-col flex-row">
             <DiReact className="text-blue-500 mx-2" />
+            <SiNextdotjs className='text-gray-100 mx-2' />
+            </div>
+            <div className="flex md:flex-col flex-row">
             <DiNodejsSmall className="text-green-500 mx-2" />
+            
+             <SiExpress className='text-orange-500 mx-2' /> 
+             </div>
+             <div className="flex md:flex-col flex-row">
+            <DiMongodb className='text-green-600 mx-2' />
+            <DiMysql className='text-blue-600 mx-2'  />
+            </div>
+           
 
         </motion.div>
 
