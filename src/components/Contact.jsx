@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="px-6 max-w-[1000px] mx-auto md:my-12" id="contact">
         <Reveal>
           <div className="grid md:grid-cols-2 place-items-center">
-          <div className=" mr-8 p-20 bg bg-gray ">
+          <div className=" md:mr-8 md:p-20 bg bg-gray ">
           <p className="text-gray-100 font-bold text-xl mb-2">
               Let´s <span>connect!</span> 
           </p>
